@@ -1,6 +1,6 @@
 # <img src=logo.png width=30> GitHub User Stats
 
-### [Visit the GitHub User Stats Website](https://google.com)
+### [Visit the GitHub User Stats Website](https://moistcatawumpus.github.io/github-user-stats/)
 
 Welcome to GitHub User Stats, a tool to retrieve and display GitHub user statistics in a clean and stylish format.
 
