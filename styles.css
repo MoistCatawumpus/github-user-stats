@@ -1,0 +1,136 @@
+:root {
+    --primary-color: #61dafb;
+    --background-color: #282c35;
+    --container-background: #38424d;
+    --border-color: #485363;
+    --text-color: #ffffff;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    background-color: var(--container-background);
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+code {
+    background-color: #4d5766;
+    color: var(--text-color);
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+hr {
+    border: 1px solid var(--border-color);
+    margin: 20px 0;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#searchInput {
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    margin-right: 5px;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4fa3f7;
+}
+
+#userStats {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#userStats h2 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+}
+
+#userStats img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+#userStats p {
+    margin: 10px 0;
+    text-align: left;
+}
+
+#userStats strong {
+    color: var(--primary-color);
+}
+
+#userStats code {
+    background-color: #4d5766;
+    color: var(--text-color);
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#userStats a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#userStats a:hover {
+    text-decoration: underline;
+}

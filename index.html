@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+    <link rel="icon" href="logo.png" type="image/png">
+    <title>GitHub User Stats</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>GitHub User Stats</h1>
+        <div id="search-container">
+            <label for="searchInput">Enter GitHub username:</label>
+            <input type="text" id="searchInput" placeholder="Type a username" onkeydown="searchOnEnter(event)">
+            <button onclick="getUserStats()">Search</button>
+        </div>
+        <div id="userStats" class="hidden"></div>
+    </div>
+</body>
+
+</html>
